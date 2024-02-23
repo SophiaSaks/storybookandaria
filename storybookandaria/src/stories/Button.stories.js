@@ -1,8 +1,8 @@
-import Button from '../components/Button'
+import MyButton from '../components/MyButton'
 
 export default {
     title: "Button",
-    component: Button,
+    component: MyButton,
     args: {
         children: 'Click me!'
     }
@@ -12,6 +12,7 @@ export const Primary = {
     args: {
         primary: true,
         children: 'Primär!',
+        isDisabled: false
     }
 }
 
