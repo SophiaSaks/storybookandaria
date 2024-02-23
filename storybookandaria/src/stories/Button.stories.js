@@ -2,9 +2,28 @@ import Button from '../components/Button'
 
 export default {
     title: "Button",
-    component: Button
+    component: Button,
+    args: {
+        children: 'Click me!'
+    }
 }
 
-export const TestButton = () => <Button onPress={() => alert('Hallå där')}>Hej</Button>
+export const Primary = {
+    args: {
+        primary: true,
+        children: 'Primär!',
+    }
+}
 
-export const TestButton2 = () => <Button onPress={() => alert('Heeeej')}>Nämen tjaa</Button>
+export const Secondary = {
+    args: {
+        primary: false,
+        children: 'Sekundär!',
+    }
+}
+
+export const Test = {
+    args: {
+        primary: false,
+    }
+}

@@ -18,7 +18,7 @@ function Button({ onPress, children }) {
     fontSize: 16,
   }}
 
-  >{children}</button>;
+  >{children}</button>
 }
 
 export default Button;
